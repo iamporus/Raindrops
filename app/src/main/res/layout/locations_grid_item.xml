@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.room.raindrops.components.CustomTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="74"
+        android:id="@+id/temperatureTextView"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="35sp"
+        android:lineSpacingExtra="2dp"
+        android:textColor="#eeeeee"
+        app:ttf_name="Roboto-Light.ttf"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationNameTextView"
+        android:textColor="#ffffffff"
+        android:textSize="18sp"
+        android:text="Pune, IN"
+        android:gravity="center"
+        android:padding="10dp" />
+
+</LinearLayout>

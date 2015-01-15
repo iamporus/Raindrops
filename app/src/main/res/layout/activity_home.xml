@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg_evening"
+    tools:context=".HomeActivity">
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_toolbar"
+        layout="@layout/main_toolbar"
+        android:elevation="4dp"
+        android:layout_alignParentTop="true"></include>
+
+    <com.room.raindrops.components.SlidingTabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_toolbar">
+
+    </com.room.raindrops.components.SlidingTabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_below="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

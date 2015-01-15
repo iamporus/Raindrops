@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#FF000000</color>
+    <color name="faint_blue">#440288D1</color>
+    <color name="faint_blue_pressed">#880288D1</color>
+</resources>
